@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welo 威洛科技 — 讓科技為你創造更多價值</title>
+  <meta name="description" content="Welo 威洛科技提供 LINE Bot 自動化、客服機器人、社群管理等智慧解決方案，助您的品牌事半功倍。" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <header id="header">
+    <nav class="nav container">
+      <a href="#" class="logo">
+        <span class="logo-mark">W</span>
+        <span class="logo-text">Welo <span class="logo-sub">威洛科技</span></span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="選單">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">首頁</a></li>
+        <li><a href="#features">服務特色</a></li>
+        <li><a href="#plans">方案介紹</a></li>
+        <li><a href="#contact">聯絡我們</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ── Hero ── -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">🚀 智慧自動化解決方案</div>
+      <h1 class="hero-title">
+        讓 <em>科技</em> 幫你<br />做更多事
+      </h1>
+      <p class="hero-desc">
+        Welo 威洛科技專注 LINE Bot 自動化、AI 客服整合與社群管理，<br />
+        協助品牌降低人力成本，提升顧客互動體驗。
+      </p>
+      <div class="hero-actions">
+        <a href="#plans" class="btn btn-primary">查看方案</a>
+        <a href="#contact" class="btn btn-outline">免費諮詢</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>500+</strong><span>服務客戶</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>99%</strong><span>系統穩定性</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>24/7</strong><span>全年無休支援</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ── Features ── -->
+  <section id="features" class="section features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">服務特色</span>
+        <h2>為什麼選擇 Welo？</h2>
+        <p>從建置到維運，我們提供完整的自動化解決方案</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🤖</div>
+          <h3>LINE Bot 自動化</h3>
+          <p>打造專屬品牌 Bot，自動回覆、推播訊息、活動報名一手包辦，讓機器人 24 小時為你服務。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💬</div>
+          <h3>AI 智慧客服</h3>
+          <p>整合大型語言模型，精準理解顧客問題，提供自然流暢的對話體驗，降低人工客服負擔。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>數據分析儀表板</h3>
+          <p>即時監控互動率、訊息觸及、轉換成效，數據驅動決策，持續優化行銷策略。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔗</div>
+          <h3>系統整合串接</h3>
+          <p>無縫串接 CRM、電商平台、金流系統，打通數位生態系，提升整體營運效率。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3>穩定安全架構</h3>
+          <p>採用雲端高可用架構，99% 服務穩定性保證，資料加密傳輸，守護您的業務資產。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3>客製化開發</h3>
+          <p>無標準方案能符合需求？我們提供完全客製開發服務，依照您的商業邏輯量身打造。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Plans ── -->
+  <section id="plans" class="section plans">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">方案介紹</span>
+        <h2>選擇適合你的方案</h2>
+        <p>彈性計費，依需求升級，隨時可以諮詢客製方案</p>
+      </div>
+      <div class="plans-tabs">
+        <button class="tab active" data-filter="all">全部方案</button>
+        <button class="tab" data-filter="line">LINE Bot</button>
+        <button class="tab" data-filter="ai">AI 客服</button>
+        <button class="tab" data-filter="custom">客製開發</button>
+      </div>
+      <div class="plans-grid" id="plansGrid">
+
+        <div class="plan-card" data-type="line">
+          <div class="plan-header">
+            <span class="plan-badge">入門</span>
+            <h3>Starter</h3>
+            <div class="plan-price">
+              <span class="price-amount">$1,500</span>
+              <span class="price-unit">/ 月</span>
+            </div>
+          </div>
+          <ul class="plan-features">
+            <li>✓ 基礎 LINE Bot 建置</li>
+            <li>✓ 自動回覆規則 10 組</li>
+            <li>✓ 月推播 5,000 則</li>
+            <li>✓ 基礎數據報表</li>
+            <li>✓ Email 技術支援</li>
+          </ul>
+          <a href="#contact" class="btn btn-plan">立即開始</a>
+        </div>
+
+        <div class="plan-card featured" data-type="line">
+          <div class="plan-badge-top">最受歡迎</div>
+          <div class="plan-header">
+            <span class="plan-badge">進階</span>
+            <h3>Professional</h3>
+            <div class="plan-price">
+              <span class="price-amount">$3,800</span>
+              <span class="price-unit">/ 月</span>
+            </div>
+          </div>
+          <ul class="plan-features">
+            <li>✓ 進階 LINE Bot 功能</li>
+            <li>✓ 自動回覆規則 無限制</li>
+            <li>✓ 月推播 30,000 則</li>
+            <li>✓ AI 智慧回覆整合</li>
+            <li>✓ 即時儀表板分析</li>
+            <li>✓ LINE 即時技術支援</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">立即開始</a>
+        </div>
+
+        <div class="plan-card" data-type="ai">
+          <div class="plan-header">
+            <span class="plan-badge">AI 方案</span>
+            <h3>AI Customer Service</h3>
+            <div class="plan-price">
+              <span class="price-amount">$5,500</span>
+              <span class="price-unit">/ 月</span>
+            </div>
+          </div>
+          <ul class="plan-features">
+            <li>✓ 大型語言模型整合</li>
+            <li>✓ 知識庫客製訓練</li>
+            <li>✓ 多管道客服整合</li>
+            <li>✓ 情緒分析與轉人工</li>
+            <li>✓ 專屬客戶成功經理</li>
+          </ul>
+          <a href="#contact" class="btn btn-plan">立即開始</a>
+        </div>
+
+        <div class="plan-card" data-type="custom">
+          <div class="plan-header">
+            <span class="plan-badge">客製</span>
+            <h3>Enterprise</h3>
+            <div class="plan-price">
+              <span class="price-amount">客製報價</span>
+            </div>
+          </div>
+          <ul class="plan-features">
+            <li>✓ 完全客製化開發</li>
+            <li>✓ 私有雲 / 地端部署</li>
+            <li>✓ 系統整合與 API 串接</li>
+            <li>✓ SLA 99.9% 保證</li>
+            <li>✓ 專屬技術團隊支援</li>
+          </ul>
+          <a href="#contact" class="btn btn-plan">聯繫洽談</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Testimonials ── -->
+  <section class="section testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">客戶見證</span>
+        <h2>他們都選擇了 Welo</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p>「導入 Welo 的 LINE Bot 後，客服問題減少了 60%，團隊可以專注在更有價值的工作上。」</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">陳</div>
+            <div>
+              <strong>陳小姐</strong>
+              <span>電商品牌創辦人</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p>「推播開封率從 15% 提升到 42%，Welo 的分眾推播功能真的很強大！」</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">林</div>
+            <div>
+              <strong>林先生</strong>
+              <span>餐飲連鎖行銷總監</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p>「客製開發速度快、溝通透明，上線後的技術支援也很及時，值得信賴的夥伴。」</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">王</div>
+            <div>
+              <strong>王先生</strong>
+              <span>科技新創技術長</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contact ── -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">聯絡我們</span>
+        <h2>準備好開始了嗎？</h2>
+        <p>無論是方案諮詢或客製需求，歡迎直接與我們聯繫</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon">💬</div>
+          <h3>LINE 官方帳號</h3>
+          <p>加入我們的 LINE 官方帳號，直接與專業顧問對話，最快速的諮詢方式。</p>
+          <a href="https://line.me/R/ti/p/@welo" class="btn btn-primary" target="_blank" rel="noopener">
+            加入 LINE 好友
+          </a>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">📧</div>
+          <h3>Email 聯繫</h3>
+          <p>有詳細需求或合作提案，歡迎來信，我們將於 1 個工作天內回覆您。</p>
+          <a href="mailto:hello@welo.tech" class="btn btn-outline">
+            hello@welo.tech
+          </a>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">🤝</div>
+          <h3>商務合作</h3>
+          <p>尋求代理合作、異業聯盟或企業採購？歡迎洽談長期合作可能性。</p>
+          <a href="mailto:partner@welo.tech" class="btn btn-outline">
+            洽談合作
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <span class="logo-mark">W</span>
+          <span class="logo-text">Welo <span class="logo-sub">威洛科技</span></span>
+        </a>
+        <p>以科技為橋，連結品牌與顧客。</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4>服務</h4>
+          <a href="#features">服務特色</a>
+          <a href="#plans">方案介紹</a>
+        </div>
+        <div>
+          <h4>關於</h4>
+          <a href="#contact">聯絡我們</a>
+          <a href="mailto:hello@welo.tech">合作洽談</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Welo 威洛科技. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
