@@ -151,17 +151,12 @@ img { display: block; max-width: 100%; }
   font-weight: 800;
   font-size: 1.15rem;
 }
-.logo-mark {
-  width: 36px; height: 36px;
-  background: linear-gradient(135deg, var(--clr-primary), var(--clr-accent));
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 900;
+.logo-img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
   flex-shrink: 0;
+  border-radius: 8px;
 }
 .logo-sub {
   font-weight: 400;
